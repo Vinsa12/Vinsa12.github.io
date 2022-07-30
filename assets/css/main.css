@@ -2585,7 +2585,8 @@ input, select, textarea {
 			width: calc(33.33333% - 2.5em);
 			margin: 2.5em 0 0 2.5em;
 		}
-
+		
+	
 			.tiles article > .image {
 				-moz-transition: -moz-transform 0.5s ease;
 				-webkit-transition: -webkit-transform 0.5s ease;
@@ -2684,7 +2685,12 @@ input, select, textarea {
 				.tiles article > a:hover {
 					color: #ffffff !important;
 				}
-
+				
+				.tiles article a:nohover {
+				pointer-events: none;
+				}
+				
+				
 				.tiles article > a h2 {
 					margin: 0;
 				}
@@ -2706,11 +2712,11 @@ input, select, textarea {
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #f2849e;
+				background-color: #0F2623;
 			}
 
 			.tiles article.style2 > .image:before {
-				background-color: #7ecaf6;
+				
 			}
 
 			.tiles article.style3 > .image:before {
